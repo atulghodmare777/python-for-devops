@@ -26,6 +26,21 @@ for number in numbers:
 ```
 
 In this example, the loop stops when it encounters the number 3.
+Example for while loop:
+numbers = 0
+while numbers < 8:
+    if numbers == 5:
+        break
+    print(numbers) 
+    numbers +=1
+print("final value:", numbers)
+** output**
+0
+1
+2
+3
+4
+final value: 5
 
 ## `continue` Statement
 
