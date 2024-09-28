@@ -21,8 +21,17 @@
        deploy_configuration "$env"
    done
    ```
+   for python following script will work:
+   database = ["db1", "db2", "db3"]
 
-3. **Backup and Restore Operations:**
+def deploy_configuration(db):
+    print(f"configuration has been deployed for {db}")
+    
+for db in database:
+    deploy_configuration(db)
+    
+
+4. **Backup and Restore Operations:**
 
    Automating backup and restore operations is a common use case. DevOps engineers can use "for" loops to create backups for multiple databases or services and later restore them as needed.
 
@@ -33,7 +42,7 @@
    done
    ```
 
-4. **Log Rotation and Cleanup:**
+5. **Log Rotation and Cleanup:**
 
    DevOps engineers use "for" loops to manage log files, rotate logs, and clean up older log files to save disk space.
 
@@ -44,7 +53,7 @@
    done
    ```
 
-5. **Monitoring and Reporting:**
+6. **Monitoring and Reporting:**
 
    In scenarios where you need to gather data or perform checks on multiple systems, a "for" loop is handy. For example, monitoring server resources across multiple machines:
 
@@ -55,7 +64,7 @@
    done
    ```
 
-6. **Managing Cloud Resources:**
+7. **Managing Cloud Resources:**
 
    When working with cloud infrastructure, DevOps engineers can use "for" loops to manage resources like virtual machines, databases, and storage across different cloud providers.
 
