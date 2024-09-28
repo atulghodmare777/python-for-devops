@@ -21,6 +21,7 @@
        deploy_configuration "$env"
    done
    ```
+ ```
    for python following script will work:
    database = ["db1", "db2", "db3"]
 
@@ -30,7 +31,7 @@ def deploy_configuration(db):
 for db in database:
     deploy_configuration(db)
     
-
+```
 
 
 4. **Backup and Restore Operations:**
