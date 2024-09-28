@@ -31,6 +31,8 @@ for db in database:
     deploy_configuration(db)
     
 
+
+
 4. **Backup and Restore Operations:**
 
    Automating backup and restore operations is a common use case. DevOps engineers can use "for" loops to create backups for multiple databases or services and later restore them as needed.
